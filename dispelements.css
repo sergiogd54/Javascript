@@ -1,0 +1,26 @@
+*{
+
+    padding: 0;
+    margin:0;
+}
+
+.galeria{
+
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.imagengaleria{
+
+    display: flex;
+
+    border: 1px solid blue;
+    width: 300px;
+     }
+     
+     
+    body{
+
+        background-color: pink;
+     }
