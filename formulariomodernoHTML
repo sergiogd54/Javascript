@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- www.dribbble.com -->
+        <!--google.fonts -->
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="formulariomoderno.css">
+    </head>
+    <body>
+        <h1 class="movetemierda"> REGISTRATE EN LOS FORMULARIOS</h1>
+        
+    <div class="container">
+        
+        <div class="buttons">
+            <button class="google-btn">
+                <picture>
+                    <img src= "https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" alt=" Logo google"> 
+                </picture>
+                <span> Registrarse con Google </span>
+            </button>
+            <button class="twitter-btn">
+                
+                <picture>
+                    <img src="https://cdn.cdnlogo.com/logos/t/96/twitter-icon.svg" alt="logo twitter">
+                </picture>
+            </button>
+            
+        </div>
+        
+        <div class="separator">
+            
+            <hr>
+            <span> o... </span>
+            <hr>
+            
+            
+        </div>
+        <form action="" method="">
+            <div class="section-inputs">
+                <label for="name">
+                    <span>Name</span>
+                    <input id="name" name="name">
+                    
+          
+        </label>
+        
+        <label for="username">
+                        <span>Username</span>
+                        <input id="username" name="username">
+                    
+                    
+                    </label>
+                </div>
+                        <label for="email">
+                            <span>Email</span>
+                            <input id="email" name="email">
+                        
+                            
+                        </label>
+             <div>
+                 <label for="password">
+                        <span>Password</span>
+                        <input id="password" name="password" placeholder=" +10 caracteres">
+                        
+                            
+            </label>
+            </div>
+            
+        </label>
+        <div>
+            <label for="checkbox" class="checkbox-btn">
+                
+                <input type="checkbox" name="checkbox" >
+                <span> Acepto las condiciones </span>
+
+
+
+            
+            
+            </label>
+            
+            
+            <button type="submit" class="submit-btn"> Crear cuenta</button>
+        </div>
+        
+        
+        
+    </form>
+    
+</div>
+</body>
+</html>
